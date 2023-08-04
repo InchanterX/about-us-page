@@ -89,20 +89,27 @@ body {
 }
 
 .paragraph-discription {
-    width     : 75%;
-    text-align: left;
-    font-size : 26px;
-    color     : #53B495;
+    width        : 75%;
+    text-align   : left;
+    font-size    : 26px;
+    color        : #53B495;
+    margin-bottom: 0;
+    margin-right : 0;
 }
 
 .paragraph-text {
-    width     : 80%;
-    text-align: left;
-    font-size : 18px;
+    width        : 80%;
+    text-align   : left;
+    font-size    : 18px;
+    color        : #888888;
+    margin-bottom: 0;
+    margin-right : 0;
 }
 
 .paragraph-head {
-    font-size: 55px;
+    font-size    : 55px;
+    margin-bottom: 0;
+    margin-right : 0;
 }
 
 body {
@@ -165,3 +172,44 @@ a {
 .learn-more {
     justify-content: center;
 }
+
+.check-marker-img {
+    width : 41px;
+    height: 32px;
+}
+
+.how-we-work-img-1 {
+    width: 25%;
+}
+
+.how-we-work {
+    justify-content: center;
+}
+
+.how-we-work-text {
+    width      : 40%;
+    margin-left: 50px;
+}
+
+.how-we-work-discription {
+    margin-top    : 5px;
+    vertical-align: middle;
+}
+
+.how-we-work-block-1 {
+    margin-top: 20px;
+}
+
+.what-we-have-mini-block {
+    width: 40%;
+}
+
+.what-we-have-head {
+    width: 50%;
+}
+
+.what-we-have-text {
+    width: 50%;
+}
+
+.
