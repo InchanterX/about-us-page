@@ -89,21 +89,23 @@ body {
 }
 
 .paragraph-discription {
-    width        : 75%;
+    width        : 80%;
     text-align   : left;
     font-size    : 26px;
     color        : #53B495;
     margin-bottom: 0;
     margin-right : 0;
+    display      : inline-block;
 }
 
 .paragraph-text {
-    width        : 80%;
+    width        : 90%;
     text-align   : left;
     font-size    : 18px;
     color        : #888888;
     margin-bottom: 0;
     margin-right : 0;
+    display      : inline-block;
 }
 
 .paragraph-head {
@@ -117,7 +119,8 @@ body {
 }
 
 .paragraph {
-    width: 40%;
+    width     : 40%;
+    /* display: inline-block; */
 }
 
 .about {
@@ -201,15 +204,29 @@ a {
 }
 
 .what-we-have-mini-block {
-    width: 40%;
+    width  : 40%;
+    display: flex;
 }
 
 .what-we-have-head {
-    width: 50%;
+    width        : 80%;
+    color        : #4DB677;
+    font-size    : 35px;
+    display      : inline-block;
+    margin-bottom: 10px;
+    margin-top   : 10px;
 }
 
 .what-we-have-text {
-    width: 50%;
+    width        : 80%;
+    display      : inline-block;
+    color        : #888888;
+    font-size    : 18px;
+    margin-top   : 10px;
+    margin-bottom: 0;
 }
 
-.
+.what-we-have-block {
+    justify-content: center;
+    display        : flex;
+}
