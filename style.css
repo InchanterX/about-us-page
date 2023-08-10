@@ -510,3 +510,13 @@ hr {
     box-shadow   : 1px 3px #eceff1;
     margin-bottom: 30px;
 }
+
+@media (max-width: 852px) {
+    .our-team-img-container {
+        margin-right: 0;
+    }
+
+    .our-team-person-block {
+        margin-right: 0;
+    }
+}
