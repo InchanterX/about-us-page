@@ -413,6 +413,7 @@ a {
     .mini-block {
         width        : 80%;
         margin-bottom: 20px;
+        margin-left  : 10px;
     }
 }
 
@@ -482,6 +483,10 @@ a {
 
     .what-we-have-text-block {
         width: 100%;
+    }
+
+    .mini-block-nomber-3 {
+        margin-left: 0;
     }
 }
 
