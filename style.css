@@ -418,15 +418,31 @@ a {
     }
 
     .mini-block {
-        width        : 80%;
+        width        : 96%;
         margin-bottom: 20px;
         margin-left  : 10px;
+        display      : inline-block;
     }
 
     .mini-head {
         margin-top   : 0;
         margin-bottom: 8px;
+        text-align   : center;
     }
+
+    .img-emoji {
+        text-align: center;
+    }
+
+    .mini-text {
+        text-align: center;
+    }
+
+    .learn-more-button {
+        margin : 0 auto;
+        display: block;
+    }
+
 }
 
 @media (max-width: 735px) {
@@ -546,6 +562,28 @@ a {
     }
 }
 
+@media (max-width: 402px) {
+    .why-us .paragraph-head {
+        font-size: 40px;
+    }
+
+    .about .paragraph-head {
+        font-size: 40px;
+    }
+}
+
+@media (max-width: 306px) {
+    .why-us .paragraph-head {
+        font-size: 30px;
+    }
+
+    .about .paragraph-head {
+        font-size: 40px;
+    }
+}
+
+
+
 @media (max-width: 800px) {
     .how-we-work-text {
         margin-left: 30px;
@@ -570,8 +608,10 @@ a {
     }
 
     .what-we-have-mini-block {
-        width      : 100%;
-        margin-left: 10px;
+        width          : 100%;
+        margin-left    : 10px;
+        display        : flex;
+        justify-content: center;
     }
 
     .what-we-have-head {
@@ -588,6 +628,11 @@ a {
 
     .mini-block-nomber-3 {
         margin-left: 0;
+    }
+
+    .what-we-have-img {
+        margin-top   : auto;
+        margin-bottom: auto;
     }
 }
 
@@ -625,5 +670,17 @@ hr {
 @media (max-width: 596px) {
     .how-we-work-discription {
         width: 80%;
+    }
+}
+
+@media (max-width: 500px) {
+    .what-we-have-mini-block {
+        margin-left: 10px;
+    }
+}
+
+@media (max-width: 700px) {
+    .what-we-have-mini-block {
+        margin-left: 20px;
     }
 }
