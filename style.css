@@ -336,9 +336,11 @@ a {
 }
 
 .our-team-name {
-    font-size : 26px;
-    color     : #1D9D73;
-    text-align: center;
+    font-size    : 26px;
+    color        : #1D9D73;
+    text-align   : center;
+    margin-top   : 16px;
+    margin-bottom: 16px;
 }
 
 .our-team-text {
@@ -379,6 +381,7 @@ a {
     color          : #333333;
     text-decoration: none;
     font-weight    : normal;
+    margin-top     : 0;
 }
 
 .links-footer {
@@ -396,7 +399,7 @@ a {
 @media (max-width: 1075px) {
     .mini-block {
         width      : 30%;
-        margin-left: 40px;
+        margin-left: 0px;
     }
 }
 
@@ -444,17 +447,68 @@ a {
         width  : 0;
         opacity: 0;
     }
+
+    .paragraph-discription {
+        margin-top: 8px;
+    }
+
 }
 
 @media (max-width: 1232px) {
     .about .paragraph {
         width: 700px;
     }
+
+    .about-h1 {
+        margin-top: 20px;
+    }
+
+    .paragraph-discription {
+        margin-top: 16px;
+    }
+
+    .paragraph-text {
+        margin-top: 8px;
+    }
 }
+
+@media (max-width: 1272px) {
+    .our-team-head {
+        margin-bottom: 20px;
+    }
+
+    .hr {
+        margin-bottom: 20px;
+    }
+}
+
+.last-hr {
+    margin-bottom: 10px;
+}
+
+@media (max-width: 1335px) {
+    .how-we-work-h1 {
+        margin-top: 20px;
+    }
+
+    .how-we-work-block-1 {
+        margin-top: 10px;
+    }
+
+    .how-we-work-text-text {
+        margin-top: 8px;
+    }
+}
+
+
 
 @media (max-width: 834px) {
     .why-us .paragraph {
         width: 700px;
+    }
+
+    .why-us-h1 {
+        margin-top: 0px;
     }
 }
 
@@ -470,7 +524,8 @@ a {
     }
 
     .what-we-have-mini-block {
-        width: 100%;
+        width      : 100%;
+        margin-left: 10px;
     }
 
     .what-we-have-head {
