@@ -684,3 +684,31 @@ hr {
         margin-left: 20px;
     }
 }
+
+@media (max-width: 400px) {
+    .what-we-have-img {
+        margin-bottom: 0;
+    }
+
+    .what-we-have-head {
+        margin-left: -130px;
+        width      : 185%;
+        font-size  : 30px;
+    }
+}
+
+@media (max-width: 348px) {
+    .what-we-have-head {
+        font-size: 25px;
+    }
+
+    .what-we-have-text {
+        font-size: 17px;
+    }
+}
+
+@media (max-width: 340px) {
+    .what-we-have-text {
+        font-size: 17px;
+    }
+}
