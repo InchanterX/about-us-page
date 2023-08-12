@@ -639,6 +639,11 @@ a {
         min-width    : 40px;
         margin-top   : 2%;
     }
+
+    .how-we-work-text {
+        width      : 90%;
+        margin-left: 0;
+    }
 }
 
 @media (max-width:332px) {
