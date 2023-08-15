@@ -1,3 +1,13 @@
+:root {
+    --green      : #53B495;
+    --light-grey : #888;
+    --light-black: #333;
+    --margin10   : 10px;
+    --margin16   : 16px;
+    --margin20   : 20px;
+    --margin30   : 30px;
+}
+
 body {
     font-family: Roboto;
 }
@@ -57,11 +67,11 @@ body {
 
 .pointer {
     font-size: 20px;
-    color    : #53B495;
+    color    : var(--green);
 }
 
 .home {
-    color: #53B495;
+    color: var(--green);
 }
 
 .why-img-1 {
@@ -85,7 +95,7 @@ body {
     width        : 80%;
     text-align   : left;
     font-size    : 26px;
-    color        : #53B495;
+    color        : var(--green);
     margin-bottom: 0;
     margin-right : 0;
     display      : inline-block;
@@ -95,7 +105,7 @@ body {
     width        : 90%;
     text-align   : left;
     font-size    : 18px;
-    color        : #888888;
+    color        : var(--light-grey);
     margin-bottom: 0;
     margin-right : 0;
     display      : inline-block;
@@ -126,13 +136,13 @@ body {
 
 .mini-head {
     font-size    : 26px;
-    margin-top   : 16px;
-    margin-bottom: 16px;
+    margin-top   : var(--margin16);
+    margin-bottom: var(--margin16);
 }
 
 .mini-text {
     font-size: 14px;
-    color    : #888888;
+    color    : var(--light-grey);
 }
 
 .mini-block {
@@ -151,7 +161,7 @@ body {
     height               : 40px;
     font-size            : 18px;
     color                : #fff;
-    background-color     : #1D9D73;
+    background-color     : var(--green);
     border               : 0;
     border-radius        : 30px;
     -webkit-border-radius: 30px;
@@ -232,10 +242,12 @@ a {
     width        : 90%;
     text-align   : left;
     font-size    : 18px;
-    color        : #888888;
+    color        : var(--light-grey);
     margin-bottom: 0;
     margin-right : 0;
     display      : inline-block;
+    margin-right : var(--margin10);
+    margin-top   : var(--margin10);
 }
 
 .how-we-work-text-block {
@@ -249,7 +261,7 @@ a {
     width         : 90%;
     text-align    : left;
     font-size     : 26px;
-    color         : #53B495;
+    color         : var(--green);
     margin-bottom : 0;
     margin-right  : 0;
     display       : inline-block;
@@ -266,11 +278,11 @@ a {
 }
 
 .mini-block-nomber-3 {
-    margin-left: -30px;
+    margin-left: calc(var(--margin30) * -1);
 }
 
 .how-we-work-block-1 {
-    margin-top: 20px;
+    margin-top: var(--margin20);
     width     : 100%;
     display   : inline-block;
 }
@@ -278,9 +290,9 @@ a {
 .what-we-have-mini-block {
     width        : 45%;
     /* display   : flex; */
-    margin-bottom: 20px;
+    margin-bottom: var(--margin20);
     max-width    : calc(450px + 122px);
-    margin-right : 30px;
+    margin-right : var(--margin30);
 }
 
 .last-mini-block {
@@ -289,20 +301,20 @@ a {
 
 .what-we-have-head {
     width        : 80%;
-    color        : #4DB677;
+    color        : var(--green);
     font-size    : 35px;
     display      : inline-block;
     margin-bottom: 0px;
-    margin-top   : 10px;
+    margin-top   : var(--margin10);
 }
 
 .what-we-have-text {
     width        : 100%;
     display      : inline-block;
-    color        : #888888;
+    color        : var(--light-grey);
     font-size    : 18px;
     margin-bottom: 0;
-    margin-top   : 8px;
+    margin-top   : var(--margin10);
 }
 
 .what-we-have-text-block {
@@ -341,15 +353,15 @@ a {
 
 .our-team-name {
     font-size    : 26px;
-    color        : #1D9D73;
+    color        : var(--green);
     text-align   : center;
-    margin-top   : 16px;
-    margin-bottom: 16px;
+    margin-top   : var(--margin16);
+    margin-bottom: var(--margin16);
 }
 
 .our-team-text {
     font-size : 18px;
-    color     : #888888;
+    color     : var(--light-grey);
     text-align: center;
 }
 
@@ -674,7 +686,7 @@ hr {
     margin-bottom: 30px;
 }
 
-@media (max-width: 852px) {
+@media (max-width: 832px) {
     .our-team-img-container {
         margin-right: 0;
     }
@@ -692,13 +704,13 @@ hr {
 
 @media (max-width: 500px) {
     .what-we-have-mini-block {
-        margin-left: 10px;
+        margin-left: var(--margin10);
     }
 }
 
 @media (max-width: 700px) {
     .what-we-have-mini-block {
-        margin-left: 20px;
+        margin-left: var(--margin20);
     }
 }
 
